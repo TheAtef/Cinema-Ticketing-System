@@ -1,0 +1,36 @@
+15Drama-Hall15,15,Goodfellas,Drama-Hall,30000.0,Fadi bedan,bedan@gmail,Paypal,10:00AM
+15Drama-Hall14,15,Goodfellas,Drama-Hall,30000.0,Fadi bedan,bedan@gmail,Paypal,10:00AM
+10Crime-Hall16,10,Pulp fiction,Crime-Hall,30000.0,Fadi bedan,bedan@gmail,Paypal,10:00PM 
+10Crime-Hall15,10,Pulp fiction,Crime-Hall,30000.0,Fadi bedan,bedan@gmail,Paypal,10:00PM
+10Crime-Hall14,10,Pulp fiction,Crime-Hall,30000.0,Fadi bedan,bedan@gmail,Paypal,10:00PM
+16Crime-Hall16,16,The Usual Suspects,Crime-Hall,30000.0,waleed,wa@gmail,Credit,08:30PM
+16Crime-Hall15,16,The Usual Suspects,Crime-Hall,30000.0,waleed,wa@gmail,Credit,08:30PM
+16Crime-Hall14,16,The Usual Suspects,Crime-Hall,30000.0,waleed,wa@gmail,Credit,08:30PM
+16Crime-Hall13,16,The Usual Suspects,Crime-Hall,30000.0,waleed,wa@gmail,Credit,08:30PM
+16Crime-Hall12,16,The Usual Suspects,Crime-Hall,30000.0,waleed,wa@gmail,Credit,08:30PM
+14Action-Hall16,14,Get rich or die trying,Action-Hall,30000.0,aefa,omar@gmail,Cash,10:00AM
+14Action-Hall15,14,Get rich or die trying,Action-Hall,30000.0,aefa,omar@gmail,Cash,10:00AM
+14Action-Hall14,14,Get rich or die trying,Action-Hall,30000.0,aefa,omar@gmail,Cash,10:00AM
+14Action-Hall13,14,Get rich or die trying,Action-Hall,30000.0,aefa,omar@gmail,Cash,10:00AM
+14Action-Hall12,14,Get rich or die trying,Action-Hall,30000.0,aefa,omar@gmail,Cash,10:00AM
+18Mystery-Hall16,18,Shutter Island,Mystery-Hall,30000.0,dvav,afae@gmail,Credit Card,10:00PM
+18Mystery-Hall15,18,Shutter Island,Mystery-Hall,30000.0,dvav,afae@gmail,Credit Card,10:00PM
+18Mystery-Hall14,18,Shutter Island,Mystery-Hall,30000.0,dvav,afae@gmail,Credit Card,10:00PM
+18Mystery-Hall13,18,Shutter Island,Mystery-Hall,30000.0,dvav,afae@gmail,Credit Card,10:00PM
+18Mystery-Hall12,18,Shutter Island,Mystery-Hall,30000.0,dvav,afae@gmail,Credit Card,10:00PM
+18Mystery-Hall11,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall10,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall9,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall8,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall7,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall6,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall5,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall4,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall3,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall2,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+18Mystery-Hall1,18,Shutter Island,Mystery-Hall,30000.0,Username,Email@,Paypal,10:00PM
+16Crime-Hall11,16,The Usual Suspects,Crime-Hall,30000.0,dds,fds@,Paypal,08:30PM
+20Drama-Hall16,20,Fight Club,Drama-Hall,30000.0,a,@,Credit Card,08:00PM
+20Drama-Hall15,20,Fight Club,Drama-Hall,30000.0,a,@,Credit Card,08:00PM
+21Crime-Hall16,21,American Psycho,Crime-Hall,30000.0,TheAtef,atef@gmail.com,Credit Card,11:00PM
+21Crime-Hall15,21,American Psycho,Crime-Hall,30000.0,TheAtef,atef@gmail.com,Credit Card,11:00PM

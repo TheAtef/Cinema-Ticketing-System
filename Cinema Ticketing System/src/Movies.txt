@@ -1,0 +1,13 @@
+Pulp fiction,Crime-Hall,10:00PM,10
+interstealler,Sci-fi-Hall,10:00AM,11
+Diectator,Comedy-Hall,10:00AM,12
+Manchester by the sea,Drama-Hall,12:00AM,13
+Get rich or die trying,Action-Hall,10:00AM,14
+Goodfellas,Drama-Hall,10:00AM,15
+The Usual Suspects,Crime-Hall,08:30PM,16
+500 Days of Summer,Romance-Hall,02:00AM,17
+Fight Club,Drama-Hall,08:00PM,20
+Shutter Island,Mystery-Hall,10:00PM,18
+Borat,Comedy-Hall,07:00PM,19
+American Psycho,Crime-Hall,11:00PM,21
+Drive,Thriller-Hall,08:00PM,22

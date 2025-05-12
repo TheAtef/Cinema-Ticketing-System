@@ -1,0 +1,173 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class CancelReservationUI extends JFrame {
+
+    private JLabel ticketIdLabel;
+    private JTextField ticketIdField;
+    private JButton cancelButton;
+
+    public CancelReservationUI() {
+        setTitle("Reservation Cancellation");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(300, 150);
+        setLocationRelativeTo(null);
+        TicketManager ticketManager = new TicketManager();
+        ticketIdLabel = new JLabel("Ticket ID:");
+        ticketIdField = new JTextField(10);
+        cancelButton = new JButton("Cancel Reservation");
+
+        cancelButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String ticketId = ticketIdField.getText();
+                ticketManager.cancelReservation(ticketId);
+            }
+        });
+
+        // Create a panel and add components to it
+        JPanel panel = new JPanel();
+        panel.setLayout(new FlowLayout());
+        panel.add(ticketIdLabel);
+        panel.add(ticketIdField);
+        panel.add(cancelButton);
+
+        // Add panel to the JFrame
+        getContentPane().add(panel);
+
+        // Set the JFrame visible
+        setVisible(true);
+    }
+}
+
+
+
+
+   //how to add anything to any tab
+
+        /* password field      JPasswordField value = new JPasswordField();
+     JLabel l1=new JLabel("Password:");
+        l1.setBounds(20,100, 80,30);
+         value.setBounds(100,100,100,30);    */
+/* CheckBoxExample(){
+        JFrame f= new JFrame("CheckBox Example");
+        final JLabel label = new JLabel();
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setSize(400,100);
+        JCheckBox checkbox1 = new JCheckBox("C++");
+        checkbox1.setBounds(150,100, 50,50);
+        JCheckBox checkbox2 = new JCheckBox("Java");
+        checkbox2.setBounds(150,150, 50,50);
+        f.add(checkbox1); f.add(checkbox2); f.add(label);
+        checkbox1.addItemListener(new ItemListener() {
+             public void itemStateChanged(ItemEvent e) {
+                label.setText("C++ Checkbox: "
+                + (e.getStateChange()==1?"checked":"unchecked"));
+             }
+          });
+        checkbox2.addItemListener(new ItemListener() {
+             public void itemStateChanged(ItemEvent e) {
+                label.setText("Java Checkbox: "
+                + (e.getStateChange()==1?"checked":"unchecked"));
+             }
+          });    */ //check box example
+/* JFrame f;
+    TableExample(){
+    f=new JFrame();
+    String data[][]={ {"101","Amit","670000"},
+                          {"102","Jai","780000"},
+                          {"101","Sachin","700000"}};
+    String column[]={"ID","NAME","SALARY"};
+    JTable jt=new JTable(data,column);
+    jt.setBounds(30,40,200,300);
+    JScrollPane sp=new JScrollPane(jt);
+    f.add(sp);
+    f.setSize(300,400);
+    f.setVisible(true);
+}     */ //table example
+
+/*ListExample(){
+        JFrame f= new JFrame();
+        final JLabel label = new JLabel();
+        label.setSize(500,100);
+        JButton b=new JButton("Show");
+        b.setBounds(200,150,80,30);
+        final DefaultListModel<String> l1 = new DefaultListModel<>();
+          l1.addElement("C");
+          l1.addElement("C++");
+          l1.addElement("Java");
+          l1.addElement("PHP");
+          final JList<String> list1 = new JList<>(l1);
+          list1.setBounds(100,100, 75,75);
+          DefaultListModel<String> l2 = new DefaultListModel<>();
+          l2.addElement("Turbo C++");
+          l2.addElement("Struts");
+          l2.addElement("Spring");
+          l2.addElement("YII");
+          final JList<String> list2 = new JList<>(l2);
+          list2.setBounds(100,200, 75,75);
+          f.add(list1); f.add(list2); f.add(b); f.add(label);
+          f.setSize(450,450);
+          f.setLayout(null);
+          f.setVisible(true);
+          b.addActionListener(new ActionListener() {
+              public void actionPerformed(ActionEvent e) {
+                 String data = "";
+                 if (list1.getSelectedIndex() != -1) {
+                    data = "Programming language Selected: " + list1.getSelectedValue();
+                    label.setText(data);
+                 }
+                 if(list2.getSelectedIndex() != -1){
+                    data += ", FrameWork Selected: ";
+                    for(Object frame :list2.getSelectedValues()){
+                       data += frame + " ";
+                    }
+                 }
+                 label.setText(data);
+              }
+           });
+     }
+public static void main(String args[])
+    {
+   new ListExample();
+    }}  */ //list example
+
+
+
+/* Event Classes	Listener Interfaces
+ActionEvent	ActionListener
+MouseEvent	MouseListener and MouseMotionListener
+MouseWheelEvent	MouseWheelListener
+KeyEvent	KeyListener
+ItemEvent	ItemListener
+TextEvent	TextListener
+AdjustmentEvent	AdjustmentListener
+WindowEvent	WindowListener
+ComponentEvent	ComponentListener
+ContainerEvent	ContainerListener
+FocusEvent	FocusListener*/ //Events
+
+
+
+/* button methods*/
+/*Method	Description
+1.	void setText (String text)	It sets the string message on the button
+2.	String getText()	It fetches the String message on the button.
+3.	void setLabel (String label)	It sets the label of button with the specified string.
+4.	String getLabel()	It fetches the label of the button.
+5.	void addNotify()	It creates the peer of the button.
+6.	AccessibleContext getAccessibleContext()	It fetched the accessible context associated with the button.
+7.	void addActionListener(ActionListener l)	It adds the specified action listener to get the action events from the button.
+8.	String getActionCommand()	It returns the command name of the action event fired by the button.
+9.	ActionListener[ ] getActionListeners()	It returns an array of all the action listeners registered on the button.
+10.	T[ ] getListeners(Class listenerType)	It returns an array of all the objects currently registered as FooListeners upon this Button.
+11.	protected String paramString()	It returns the string which represents the state of button.
+12.	protected void processActionEvent (ActionEvent e)	It process the action events on the button by dispatching them to a registered ActionListener object.
+13.	protected void processEvent (AWTEvent e)	It process the events on the button
+14.	void removeActionListener (ActionListener l)	It removes the specified action listener so that it no longer receives action events from the button.
+15.	void setActionCommand(String command)	It sets the command name for the action event given by the button.*/
+
+
+
